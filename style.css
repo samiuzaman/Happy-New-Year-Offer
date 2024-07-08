@@ -171,7 +171,7 @@ body {
   padding: 0 auto;
   text-align: justify;
 }
-.coming-first-div h5{
+.coming-first-div h5 {
   font-size: 22px;
   font-weight: 400;
   line-height: 19px;
@@ -179,12 +179,12 @@ body {
   color: #ff0000;
   padding-bottom: 16px;
 }
-.coming-first-div h3{
+.coming-first-div h3 {
   font-size: 40px;
   font-weight: 600;
   padding-bottom: 22px;
 }
-.coming-first-div p{
+.coming-first-div p {
   font-size: 18px;
   font-weight: 400;
   line-height: 32px;
@@ -193,13 +193,13 @@ body {
 .coming-second-div {
   width: 30%;
 }
-.images-circle-div{
+.images-circle-div {
   width: 300px;
   height: 300px;
   border-radius: 50%;
   border: 10px solid #ff0000;
 }
-.images-circle-div img{
+.images-circle-div img {
   width: 100%;
   padding: 30px;
 }
@@ -208,13 +208,13 @@ body {
   padding: 0 10px;
   text-align: justify;
 }
-.coming-third-div h3{
-  color: #FF0000;
+.coming-third-div h3 {
+  color: #ff0000;
   font-size: 40px;
   font-weight: 700;
   padding-bottom: 16px;
 }
-.coming-third-div p{
+.coming-third-div p {
   font-size: 18px;
   font-weight: 400;
   line-height: 32px;
@@ -222,3 +222,51 @@ body {
   padding-bottom: 40px;
 }
 /* Coming Soon Section Code End */
+/* Holiday Section Code Start */
+.holiday-section {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding-top: 100px;
+}
+.holiday-parent-container {
+}
+.holiday-title-div{
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+.holiday-title-div h4 {
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  padding-bottom: 16px;
+}
+.holiday-title-div h2 {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 70px;
+  margin-bottom: 28px;
+}
+.holiday-title-div span {
+  color: #ff0000;
+}
+.holiday-offer-images{
+  position: relative;
+  margin-top: 100px;
+}
+.holiday-offer-images img{
+  padding-top: 500px;
+  width: 100%;
+  
+  
+}
+.holiday-child-images{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+  z-index: 5;
+}
+/* Holiday Section Code End */
