@@ -41,3 +41,35 @@ body {
     margin-bottom: 15px;
 }
 /* Header Section Code End */
+/* 65Percent-Offer Section Code Start */
+.sixty-five-percent-off{
+    width: 802px;
+    height: 806px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.sixty-five-percent-off h1{
+    font-size: 80px;
+    font-weight: 700;
+    color: #FF0000;
+    margin-bottom: 20px;
+}
+.sixty-five-percent-off p{
+    color: #FF0000;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.sixty-five-percent-off h3{
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.sixty-five-percent-off {
+
+}
+/* 65Percent-Offer Section Code End */
