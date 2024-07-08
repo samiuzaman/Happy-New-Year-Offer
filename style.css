@@ -9,67 +9,149 @@ body {
 }
 /* Reset Code End */
 /* Header Section Code Start */
-.banner-section{
-    width: 80%;
-    height: 71vh;
-    margin: 0 auto;
-    margin-top: 30px;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-image: url(./images/banner-image.png);
-    background-blend-mode: overlay;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    border-radius: 15px;
-    color: white;
-    text-align: center;
-    align-content: center;
+.banner-section {
+  width: 80%;
+  height: 71vh;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url(./images/banner-image.png);
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  align-content: center;
 }
 
-.banner-section h4{
-    font-size: 35px;
-    font-weight: 400;
-    text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
-    margin-bottom: 20px;
+.banner-section h4 {
+  font-size: 35px;
+  font-weight: 400;
+  text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
 }
-.banner-section h2{
-    width: 50%;
-    margin: 0 auto;
-    font-size: 65px;
-    font-weight: 700;
-    text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
-    margin-bottom: 15px;
+.banner-section h2 {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 65px;
+  font-weight: 700;
+  text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 15px;
 }
 /* Header Section Code End */
 /* 65Percent-Offer Section Code Start */
-.sixty-five-percent-off{
-    width: 802px;
-    height: 806px;
-    margin: 0 auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    text-align: center;
-}
-.sixty-five-percent-off h1{
-    font-size: 80px;
-    font-weight: 700;
-    color: #FF0000;
-    margin-bottom: 20px;
-}
-.sixty-five-percent-off p{
-    color: #FF0000;
-    font-size: 22px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-}
-.sixty-five-percent-off h3{
-    font-size: 45px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 40px;
-}
 .sixty-five-percent-off {
-
+  width: 802px;
+  height: 806px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.sixty-five-percent-off h1 {
+  font-size: 80px;
+  font-weight: 700;
+  color: #ff0000;
+  margin-bottom: 20px;
+}
+.sixty-five-percent-off p {
+  color: #ff0000;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.sixty-five-percent-off h3 {
+  font-size: 45px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 40px;
 }
 /* 65Percent-Offer Section Code End */
+/* Parti Details Section Code Start */
+.midnight-party {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.midnight-party .parent-div {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url(images/Vectorrr.png);
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  width: 80%;
+  height: 72vh;
+  margin: 0 auto;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 15px;
+}
+.midnight-party .details-div {
+  width: 50%;
+  margin-left: 30px;
+}
+.midnight-party .details-div h2 {
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 11%;
+  line-height: 80px;
+  margin-bottom: 24px;
+}
+.midnight-party .details-div p {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+  padding-bottom: 48px;
+}
+.midnight-party .details-div span {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.midnight-party .images-div img {
+  width: 300px;
+  height: 454px;
+}
+
+.party-place-date-time {
+  width: 80%;
+  height: 482px;
+  margin: 0 auto;
+  background-image: linear-gradient(#ffe9e9, #fffcfc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.place-parent-div p {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 56px;
+    margin-bottom: 48px;
+}
+.place-parent-div span {
+    color: #FF0000;
+}
+.place-parent-div button {
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.place-parent-div button:hover {
+    background-color: #ec1313c4;
+}
+/* Parti Details Section Code End */
