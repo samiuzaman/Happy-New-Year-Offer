@@ -310,3 +310,68 @@ body {
   height: 350px;
 }
 /* Awesome Portfolio Section Code End */
+/* Subcribe Section Code Start */
+.subcribe-newsletter {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #fff2f2;
+  margin-bottom: 100px;
+}
+.subcribe-parent-container {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+.subcribe-parent-container img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 40px;
+}
+.subcribe-parent-container h3 {
+  font-family: Merriweather;
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 60px;
+  margin-bottom: 22px;
+}
+.subcribe-parent-container p {
+  color: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgba(7, 2, 17, 0.6);
+  margin-bottom: 45px;
+}
+.subcribe-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subcribe-email input {
+  padding: 10px 0;
+}
+.subcribe-email input[type="email"] {
+  width: 40%;
+  padding: 15px 0;
+  border: none;
+  background-color: #fff;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.subcribe-email input::placeholder {
+  font-size: 20px;
+  font-weight: 400;
+  padding-left: 20px;
+}
+.subcribe-email input[type="submit"] {
+  width: 20%;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  font-weight: 400;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+/* Subcribe Section Code End */
