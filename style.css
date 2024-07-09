@@ -374,4 +374,44 @@ body {
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
 }
+.subcribe-email input[type="submit"]:hover{
+  background-color: #da1616;
+}
+.subcribe-email input[type="submit"]:focus{
+  background-color: green;
+}
 /* Subcribe Section Code End */
+/* Footer Section Code Start */
+.footer-parent-container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #070211;
+  color: white;
+}
+.footer-address-section {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+.footer-social-section {
+  width: 80%;
+  margin: 0 auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 30px 0;
+  text-align: center;
+}
+.footer-social-section img {
+  margin-right: 15px;
+  width: 50px;
+  height: 50px;
+}
+.footer-copyright-section{
+  padding-top: 30px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+/* Footer Section Code End */
